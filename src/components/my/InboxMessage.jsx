@@ -21,7 +21,7 @@ function InboxMessage({ message, index, inboxCount, formatDate }) {
   return (
     <>
       <div id='mailMsg' className="max-w-md flex items-center rounded-lg bg-popover p-4 shadow-md my-3">
-        <Avatar seed={message.from} width="50" />
+        <Avatar seed={message.From} width="50" />
         <div className="flex w-full flex-col">
           <div className="mb-2 flex items-center justify-between">
             <p id="senderID" className="font-semibold text-accent-foreground">

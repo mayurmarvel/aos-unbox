@@ -5,8 +5,8 @@ import { ModeToggle } from '@/components/mode-toggle';
 import { ProcessLogin } from '@/components/my/ProcessLogin';
 
 const navigation = [
-  { name: 'GuestBook', href: '#', current: true },
-//   { name: 'Team', href: '#', current: false },
+  { name: 'GuestBook', href: 'http://aos-unbox.123guestbook.com/', current: true },
+  { name: 'Github', href: 'https://github.com/mayurmarvel/aos-unbox', current: false },
 //   { name: 'Projects', href: '#', current: false },
 //   { name: 'Calendar', href: '#', current: false },
 ];

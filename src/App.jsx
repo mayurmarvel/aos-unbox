@@ -7,6 +7,7 @@ import { ProcessIdProvider } from '@/components/my/ProcessIdContext';
 import { ProcessLogin } from '@/components/my/ProcessLogin';
 import InboxBox from '@/components/my/InboxBox';
 import NavBar from '@/components/my/NavBar';
+import Footer from '@/components/my/Footer';
 
 import './App.css';
 
@@ -30,6 +31,7 @@ function App() {
                 </div>
                 <InboxBox />
               </div>
+            {/* <Footer /> */}
             </div>
           </InboxCountProvider>
         </ThemeProvider>

@@ -90,7 +90,7 @@ const handleLogout = () => {
           <DialogTitle>Login to AOS Unbox</DialogTitle>
           <DialogDescription>
             Please load this{' '}
-            <a href="#" className="font-bold">
+            <a href="https://github.com/mayurmarvel/aos-unbox/blob/main/README.md" className="font-bold">
               'inbox.lua'
             </a>{' '}
             file to start receiving Messages.
@@ -151,7 +151,7 @@ const handleLogout = () => {
                   </label>
                   <p className="text-sm text-muted-foreground">
                     Instructions:{' '}
-                    <a href="#" className=" font-bold">
+                    <a href="https://github.com/mayurmarvel/aos-unbox/blob/main/README.md" className=" font-bold">
                       Click Here
                     </a>
                   </p>
