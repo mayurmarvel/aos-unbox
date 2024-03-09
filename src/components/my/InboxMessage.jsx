@@ -57,7 +57,7 @@ function InboxMessage({ message, index, inboxCount, formatDate }) {
                   </svg>
                 </div>
               </DialogTrigger>
-              <DialogContent className=' max-h-[80vh] max-w-[70vw] overflow-y-auto overflow-x-visible py-4 scrollbar-hide '>
+              <DialogContent className=' max-h-[80vh] max-w-[92vw] md:max-w-[70vw] overflow-y-auto overflow-x-visible py-4 scrollbar-hide '>
                 <DialogHeader className='text-left'>
                   <DialogTitle>Full Message Details:</DialogTitle>
                   <DialogDescription>
@@ -66,7 +66,7 @@ function InboxMessage({ message, index, inboxCount, formatDate }) {
                 </DialogHeader>
               </DialogContent>
             </Dialog>
-          </div>
+          </div> 
         </div>
       </div>
     </>
