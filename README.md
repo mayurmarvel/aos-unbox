@@ -52,7 +52,7 @@ Handlers.add('inboxCount', Handlers.utils.hasMatchingTag('Action', '#Inbox'), fu
 
 - start the aos process & load the file
 
-        .load token.lua
+        .load inbox.lua
 
 
 - get your process id 
