@@ -20,11 +20,11 @@ function App() {
           <InboxCountProvider>
             <div
               id="body"
-              className=" waves-background flex flex-col h-screen align-center "
+              className=" waves-background h-screen w-screen"
             >
               <div
                 id="wrapper"
-                className=" flex flex-col align-baseline min-w-80 w-12/12 md:w-8/12 px-7"
+                className=" flex flex-col align-baseline min-w-80 w-12/12 md:w-8/12 px-7 mx-auto"
               >
                 <NavBar />
                 <div id="wrap">
