@@ -8,6 +8,7 @@ import { ProcessLogin } from '@/components/my/ProcessLogin';
 import InboxBox from '@/components/my/InboxBox';
 import NavBar from '@/components/my/NavBar';
 import Footer from '@/components/my/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 import './App.css';
 
@@ -33,6 +34,7 @@ function App() {
               </div>
             {/* <Footer /> */}
             </div>
+            <Analytics />
           </InboxCountProvider>
         </ThemeProvider>
       </ProcessIdProvider>
